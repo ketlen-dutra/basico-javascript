@@ -1,6 +1,7 @@
 ### Bem-vindo!
 
-Repositório com exercícios em JavaScript do livro *Lógica de Programação e Algoritmos com JavaScript*
+Repositório com exercícios em JavaScript do livro *Lógica de Programação e Algoritmos com JavaScript*.
+
 Abaixo existe uma breve descrição dos tópicos abordados em cada capítulo.
 
 ### Sumário
