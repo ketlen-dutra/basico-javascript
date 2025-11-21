@@ -17,5 +17,5 @@ Abaixo existe uma breve descrição dos tópicos abordados em cada capítulo.
 - Tipos de dados (string, booleano, número)
 - Converções de tipos (Number(), parseInt(), parseDouble())
 - Saída *undefined* para quando não é atribuído um valor a uma variável
-- Operadores aritméticos (adição = +, subtração = -, multiplicação = *, divisão = /, exponenciação = **) 
+- Operadores aritméticos (adição = +, subtração = -, multiplicação = *, divisão = /, exponenciação = **)
 
