@@ -5,12 +5,12 @@
 <meta charset="UTF-8">
 
 <script>
-    var valor = Number(prompt("Informe o valor da conta"));
-    var clientes = Number(prompt("Informe quantas pessoas vão pagar"));
+    const valor = Number(prompt("Informe o valor da conta"))
+    const clientes = Number(prompt("Informe quantas pessoas vão pagar"))
 
-    var calculo = valor / clientes;
+    const calculo = valor / clientes
 
-    alert("Valor da conta: " + valor + "\nQuantos vão pagar: " + clientes + "\nQuanto cada um vai pagar: " 
-        + calculo
-    );
+    alert("Valor da conta: R$ " + valor.toFixed(2) + "\nQuantos vão pagar: " + clientes + "\nQuanto cada um vai pagar: R$ " 
+        + calculo.toFixed(2)
+    )
 </script>

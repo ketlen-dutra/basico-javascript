@@ -5,13 +5,13 @@
 <meta charset="UTF-8">
 
 <script>
-    var produto = Number(prompt("Informe o preço do produto"));
+    const produto = Number(prompt("Informe o preço do produto"))
 
-    var aVista = produto - (produto * 0.10);
+    const desconto = produto - (produto * 0.10)
     
-    var parcelado = produto / 3;
+    const parcelado = produto / 3
 
-    alert("Valor do produto: " + produto.toFixed(2) +
-    "\nValor à vista com 10% de desconto: " + aVista.toFixed(2) +
-    "\nValor parcelado em 3x: " + parcelado.toFixed(2));
+    alert("Valor do produto: R$" + produto.toFixed(2) +
+    "\nValor à vista com 10% de desconto: R$" + desconto.toFixed(2) +
+    "\nValor parcelado em 3x: R$" + parcelado.toFixed(2))
 </script>
