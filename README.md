@@ -9,13 +9,15 @@ Abaixo existe uma breve descrição dos tópicos abordados em cada capítulo.
 
 ### Tópicos do Capítulo 1
 
-- Variáveis e constantes
+- var, const e let
 - Convenções JavaScript (case sensitive, CamelCase)
 - Entrada de dados com prompt()
-- Saída de dados com alert()
+- Saída de dados com alert() e console.log()
 - Comentários
+- Template Strings
 - Tipos de dados (string, booleano, número)
-- Converções de tipos (Number(), parseInt(), parseDouble())
+- Converções de tipos (Number(), parseInt(), parseFloat(), toString())
+- Verificação de tipos (typeof, Number.isInteger())
 - Saída *undefined* para quando não é atribuído um valor a uma variável
 - Operadores aritméticos (adição = +, subtração = -, multiplicação = *, divisão = /, exponenciação = **)
 
