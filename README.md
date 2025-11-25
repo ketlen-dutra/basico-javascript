@@ -7,6 +7,7 @@ Abaixo existe uma breve descrição dos tópicos abordados em cada capítulo.
 ### Sumário
 - [Tópicos do Capítulo 1](#tópicos-do-capítulo-1)
 - [Tópicos do Capítulo 2](#tópicos-do-capítulo-2)
+- [Tópicos do Capítulo 3](#tópicos-do-capítulo-3)
 
 ### Tópicos do Capítulo 1
 
@@ -33,4 +34,6 @@ Abaixo existe uma breve descrição dos tópicos abordados em cada capítulo.
 - Principais funções matemáticas: Math.abs(num), Math-ceil(num), Math.floor(num), Math.pow(base,exp)
 Math.random(), Math.round(), Math.sqrt(num)
 - Parâmetros required, min, step
+
+### Tópicos do Capítulo 3
 
