@@ -24,3 +24,13 @@ Abaixo existe uma breve descrição dos tópicos abordados em cada capítulo.
 
 ### Tópicos do Capítulo 2
 
+- Tag *form*
+- Métodos querySelector(), getElementById() e addEventListener(), preventDefault()
+- Introdução a Eventos e Funções
+- Propriedades innerText, innerHTML, textContent, outerText e value
+- Objeto document
+- Operador aritmético módulo (%)
+- Principais funções matemáticas: Math.abs(num), Math-ceil(num), Math.floor(num), Math.pow(base,exp)
+Math.random(), Math.round(), Math.sqrt(num)
+- Parâmetros required, min, step
+
