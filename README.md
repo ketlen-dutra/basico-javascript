@@ -5,8 +5,8 @@ Repositório com exercícios em JavaScript do livro *Lógica de Programação e 
 Abaixo existe uma breve descrição dos tópicos abordados em cada capítulo.
 
 ### Sumário
-- [Tópicos do Capítulo 1](#t-picos-do-cap-tulo-1)
-- [Tópicos do Capítulo 2](#t-picos-do-cap-tulo-2)
+- [Tópicos do Capítulo 1](#tópicos-do-capítulo-1)
+- [Tópicos do Capítulo 2](#tópicos-do-capítulo-2)
 
 ### Tópicos do Capítulo 1
 
