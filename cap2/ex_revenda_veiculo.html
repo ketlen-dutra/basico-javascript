@@ -15,18 +15,19 @@
 
 <body>
     <h1>Exercício Revenda de Veículos</h1>
+    <form>
     <p>
         Veículo:
-        <input type="text" id="inVeiculo"></p>
+        <input type="text" id="inVeiculo" required></p>
     <p>
         Preço R$:
-        <input type="text" id="inPreco"></p>
-    <p>
-        <input type="button" value="Exibir promoção" id="btExibir"></p>
-    <h4 id="outVeiculo"></h4>
-    <h4 id="outEntrada"></h4>
-    <h4 id="outParcela"></h4>
-    <script src="revenda_veiculo.js"></script>
+        <input type="number" id="inPreco" required></p>
+        <input type="submit" value="Exibir promoção">
+    </form>
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <h3 id="outResp3"></h3>
+    <script src="ex_revenda_veiculo.js"></script>
 </body>
 
 </html>

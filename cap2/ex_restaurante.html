@@ -15,16 +15,17 @@ ilustra a Figura 2.10.
 
 <body>
     <h1>Restaurante por Kg</h1> <!--Título do programa-->
+    <form>
     <p>
         Preço por Quilo R$: <!--Texto-->
-        <input type="text" id="inPreco"></p> <!--Caixa de texto-->
+        <input type="number" id="inPreco" min="0" step="0.01" required></p> <!--Caixa de texto-->
     <p>
         Peso em gramas:
-        <input type="text" id="inGramas"></p>
-    <p>
-    <input type="button" value="Calcular valor" id="btValor"></p> <!--Botão-->
-    <h4 id="outValor"></h4> <!--Saída-->
-    <script src="restaurante.js"></script> <!--link para arquivo .js-->
+        <input type="number" id="inGramas" min="0" required></p>
+    <input type="submit" value="Calcular valor"> <!--Botão-->
+    </form>
+    <h4></h4> <!--Saída-->
+    <script src="ex_restaurante.js"></script> <!--link para arquivo .js-->
 </body>
 
 </html>
