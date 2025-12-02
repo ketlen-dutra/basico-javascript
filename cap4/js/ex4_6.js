@@ -31,3 +31,9 @@ frm.addEventListener("submit", (e) => {
         resp3.textContent = `Notas de 10: R$ ${notasDez}`
     }
 })
+
+frm.addEventListener("reset", () => {
+    resp1.textContent = ``
+    resp2.textContent = ``
+    resp3.textContent = ``
+})

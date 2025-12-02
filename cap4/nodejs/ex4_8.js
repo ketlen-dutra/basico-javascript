@@ -1,0 +1,19 @@
+/**
+ * b) Uma farmácia necessita de um programa que leia o total de uma compra. 
+ * Exiba como resposta o nº máximo de vezes que o cliente pode parcelar essa compra e o valor de cada parcela. 
+ * Considere as seguintes condições: 
+ * a) cada parcela deve ser de, no mínimo, R$ 20,00; 
+ * b) o número máximo de parcelas permitido é 6.
+ */
+
+const prompt = require("prompt-sync")() //adiciona pacote prompt-sync
+
+const compra = Number(prompt("Total da compra: ")) //lê valor da compra
+
+const aux = Math.floor(compra / 20) //aux = n° de parcelas sem condições
+
+const parcelas = aux == 0 ? 1 : aux > 6 ? 6 : aux //operador ternário
+
+const valorParcela = compra / parcelas //cálculo do valor da parcela
+
+console.log(`Pode pagar em ${parcelas}x de R$ ${valorParcela.toFixed(2)} reais cada`)
