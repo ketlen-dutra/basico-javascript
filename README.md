@@ -9,6 +9,7 @@ Abaixo existe uma breve descrição dos tópicos abordados em cada capítulo.
 - [Tópicos do Capítulo 2](#tópicos-do-capítulo-2)
 - [Tópicos do Capítulo 3](#tópicos-do-capítulo-3)
 - [Tópicos do Capítulo 4](#tópicos-do-capítulo-4)
+- [Tópicos do Capítulo 5](#tópicos-do-capítulo-5)
 
 ### Tópicos do Capítulo 1
 
@@ -42,4 +43,14 @@ Math.random(), Math.round(), Math.sqrt(num)
 - pacote prompt-sync ()
 
 ### Tópicos do Capítulo 4
+
+- Estruturas condicionais: if...else e switch...case
+- Operadores relacionais: == != > < >= <=
+- Operadores lógicos: ! && ||
+- Operador ternário
+- Adição do estilo: *style.color*
+- Método *focus*
+- *return*
+
+### Tópicos do Capítulo 5
 
