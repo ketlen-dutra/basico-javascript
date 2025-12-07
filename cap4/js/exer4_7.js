@@ -9,7 +9,7 @@ frm.addEventListener("submit", (e) => {
     const numero = Number(frm.inNumero.value)
 
     if(numero < 1.00) {
-        alert(`Valor Insuficiente`)
+        alert(`Valor Insuficiente. Mínimo R$ 1.00`)
         frm.inNumero.focus()
         return
     }
