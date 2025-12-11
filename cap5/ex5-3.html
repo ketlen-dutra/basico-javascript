@@ -1,0 +1,35 @@
+<!--
+Informe um número, e exiba os pares entre 1 e o número informado.
+O programa deve validar se foi digitado um número. Caso não tenha um número, o programa deve exibir
+um alerta e pedir novamente para digitar um número.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="img/livrojs.png">
+    <title>Ex 3 Programa Exibe Pares</title>
+</head>
+<body>
+    <script>
+        let numero
+
+        do{
+            numero = Number(prompt("Número: "))
+            if(numero == 0 || isNaN(numero)) {
+                aler("Digite um número válido..")
+            }
+        }while(numero == 0 || isNaN(numero))
+
+        let pares = `Pares entre 1 e ${numero}: `
+
+        for(let i = 2; i <= numero; i = i + 2) {
+            pares = `${pares} ${i},`
+        }
+        alert(pares)
+        
+    </script>
+</body>
+</html>

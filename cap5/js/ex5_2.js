@@ -8,10 +8,11 @@ frm.addEventListener("submit", (e) => {
 
     let resposta = `Entre ${numero} e 1: `
 
-    for(let i = numero; i > 0; i = i - 1) {
+    for(let i = numero; i > 1; i = i - 1) {
 
-        resposta = resposta + i + " , "
+        resposta = `${resposta} ${i},`
     }
+    resposta = `${resposta} 1.`
 
     resp.textContent = resposta
 })
