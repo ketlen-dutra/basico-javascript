@@ -1,0 +1,36 @@
+<!--
+O programa faz a leitura de contas que devem ser pagas por um usuário. 
+As contas são exibidas e no final da listagem o número de contas (contador) 
+e a soma dos valores (acumulador) são destacados. 
+A Figura 5.9 exibe uma tela com algumas contas digitadas na execução do programa.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="img/livrojs.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 5 - Cap 5</title>
+</head>
+<body>
+    <img src="img/ex5_5.jpg" alt="Contas a pagar" class="alta">
+    <h1>Programa Contas do Mês</h1>
+    <form>
+        <p>
+            Descrição da conta
+            <input type="text" id="inDescricao" required>
+        </p>
+        <p>
+            Valor da conta R$
+            <input type="number" id="inValor" min="0" step="0.01" required>
+        </p>
+        <input type="submit" value="Registrar conta">
+    </form>
+    <h3></h3>
+    <pre id="outResp1"></pre>
+    <pre id="outResp2"></pre>
+    <script src="js/ex5-5.js"></script>
+</body>
+</html>

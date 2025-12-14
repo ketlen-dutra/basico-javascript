@@ -14,21 +14,22 @@ um alerta e pedir novamente para digitar um número.
 </head>
 <body>
     <script>
-        let numero
+        let numero  //declara a variável com let, pois ela pode ser alterada
+                    //e será acessada fora do bloco do...while
 
-        do{
-            numero = Number(prompt("Número: "))
-            if(numero == 0 || isNaN(numero)) {
-                aler("Digite um número válido..")
+        do{    //cria laço de repetição do(faça)
+            numero = Number(prompt("Número: ")) //lê um número
+            if(numero == 0 || isNaN(numero)) {  //se num = 0 ou inválido
+                alert("Digite um número válido...(a partir de 2)")
             }
-        }while(numero == 0 || isNaN(numero))
+        }while(numero == 0 || isNaN(numero))  //enquanto num = 0 ou inválido
 
-        let pares = `Pares entre 1 e ${numero}: `
+        let pares = `Pares entre 1 e ${numero}: `   //string que irá conter a resposta
 
         for(let i = 2; i <= numero; i = i + 2) {
             pares = `${pares} ${i},`
         }
-        alert(pares)
+        alert(pares)  //exibe lista dos números pares
         
     </script>
 </body>

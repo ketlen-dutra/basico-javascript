@@ -1,0 +1,37 @@
+<!--
+O programa lê um número. Se for par exiba o dobro do número, se for ímpar, o triplo.
+A leitura continua até que o usuário digite 0 ou valor inválido.
+Inicialmente, uma mensagem alertando sobre a execução do programa é apresentada.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="img/livrojs.png">
+    <title>Exemplo 4 - Cap 5</title>
+</head>
+<body>
+    <script>
+        alert("Para sair digite 0. Para continuar clique OK")
+        do {
+            const num = Number(prompt("Digite um número ")) //lê o número
+            if(num == 0 || isNaN(num)) {   //se num igual a 0 ou inválido
+                const sair = confirm("Confirma saída?")  //solicita confirmação do usuário
+                if(sair) {
+                    break   //sai de repetição
+                }else {
+                    continue   //volta ao início do laço
+                }
+            }
+            if(num % 2 == 0) {   //se par
+                alert(`O dobro de ${num} é: ${num * 2}`)   //mostra o dobro
+            }else {
+                alert(`O triplo de ${num} é: ${num * 3}`)  //mostra o triplo
+            }
+        }while(true)   //enquanto verdade (só sai do laço pelo break)
+        alert("Tchau!")
+    </script>
+</body>
+</html>
