@@ -13,7 +13,7 @@ const qtd = Number(prompt("Quantidade de parcelas: "))
 const valorParcelas = Math.floor(valor / qtd)
 const valorFinal = valorParcelas + (valor % qtd)
 
-for(i = 1; i < qtd; i++) {
+for(let i = 1; i < qtd; i++) {
     console.log(`${i}ª parcela: R$ ${valorParcelas.toFixed(2)}`)
 }
 console.log(`${qtd}º parcela: R$ ${valorFinal.toFixed(2)}`)
