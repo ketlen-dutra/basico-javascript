@@ -10,6 +10,7 @@ Abaixo existe uma breve descrição dos tópicos abordados em cada capítulo.
 - [Tópicos do Capítulo 3](#tópicos-do-capítulo-3)
 - [Tópicos do Capítulo 4](#tópicos-do-capítulo-4)
 - [Tópicos do Capítulo 5](#tópicos-do-capítulo-5)
+- [Tópicos do Capítulo 6](#tópicos-do-capítulo-6)
 
 ### Tópicos do Capítulo 1
 
@@ -54,3 +55,13 @@ Math.random(), Math.round(), Math.sqrt(num)
 
 ### Tópicos do Capítulo 5
 
+- Repetições: for, while, do while
+- Atributo: class
+- Tag: pre
+- Interrupções nos laços: break e continue
+- Métodos: confirm(), .padEnd(), .padStart()
+- Contadores e acumuladores
+- Variáveis globais
+- Depuração: breakpoints, watch
+
+### Tópicos do Capítulo 6
