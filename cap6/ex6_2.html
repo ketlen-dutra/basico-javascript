@@ -1,0 +1,27 @@
+<!--
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const letras = ["A","B","C","D"] //declara e define o conteúdo inicial do vetor
+        const letras2 = letras.slice(-2) //obtem as duas últimas letras
+        const letras3 = letras.slice(0, -1) //obtem do início até o final, exceto a última
+
+        alert(letras)
+        alert(letras2)
+        alert(letras3)
+
+        const retira = letras.splice(2, 1) //remove a partir da posição 2, 1 elemento
+
+        alert(letras)
+        alert(retira)
+    </script>
+</body>
+</html>
